@@ -1,38 +1,35 @@
-# create-svelte
+# Svelte Supabase
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a GitHub template under the [jonibach/supabase](https://github.com/jonibach/supabase) repository. The purpose of this template is to provide a starting point for building a SvelteKit application with a Supabase backend.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Hello World page: A basic SvelteKit page to get you started.
+- Authentication setup: Includes an example of setting up authentication with Supabase.
+- Example requests: Demonstrates how to make requests to the Supabase backend.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Getting Started
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+1. Head to [supabase.io](https://supabase.com/dashboard/new/) and create a new project (save your project URL and public key for use later).
+2. Check out the amazing [svelte tutorial](https://learn.svelte.dev/tutorial/welcome-to-svelte) if your new to Svelte.
 
-## Developing
+### Clone the template with github.com
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+3. Click on the "Use this template" button on the [repository page](https://github.com/jonibach/supabase).
+4. Clone the repository to your local machine.
+5. Install the dependencies by running `npm install` or `yarn install`.
+6. Create a .env file and include variables (see .env.example for an example).
 
-```bash
-npm run dev
+### Or with degit
+3. npm install -g degit
+4. degit jonibach/supabase my-app
+5. Create a .env file and include variables (see .env.example for an example).
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
-## Building
+## Contributing
 
-To create a production version of your app:
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the [repository](https://github.com/jonibach/supabase).
 
-```bash
-npm run build
-```
+## License
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project is licensed under the [MIT License](LICENSE).
