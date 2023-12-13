@@ -22,7 +22,7 @@ This is a GitHub template under the [jonibach/supabase](https://github.com/jonib
 
 ### Or with degit
 3. npm install -g degit
-4. degit jonibach/supabase my-app
+4. degit jonibach/svelte-supabase my-app
 5. Create a .env file and include variables (see .env.example for an example).
 
 
